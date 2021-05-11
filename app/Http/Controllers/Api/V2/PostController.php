@@ -21,7 +21,7 @@ class PostController extends Controller
     {
         //
     }
-
+    
     /**
      * Store a newly created resource in storage.
      *
@@ -30,9 +30,8 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
     }
-
+    
     /**
      * Display the specified resource.
      *
@@ -41,9 +40,9 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        //
+        return new PostResource($post);
     }
-
+    
     /**
      * Update the specified resource in storage.
      *
