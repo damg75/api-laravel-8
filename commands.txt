@@ -9,4 +9,6 @@ php artisan make:resource V2/PostCollection
 privatizaciones
 composer require laravel/sanctum
 php artisan migrate
+php artisan make:controller Api/LoginController
+1|ivvqKyZZJzosbYxEkuItmtMmdP3W5rNHUJB7VGdk
 

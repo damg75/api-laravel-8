@@ -26,12 +26,16 @@ Route::apiResource('v2/posts', PostV2::class)
     ->only(['show', 'index'])
     ->middleware('auth:sanctum');
 
+Route::post('login', [
+    App\Http\Controllers\Api\LoginController::class,
+    'login'
+]);
 
 
 
 
 
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
