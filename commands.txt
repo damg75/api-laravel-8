@@ -1,1 +1,1 @@
-php artisan make:model Post -cmf
+php artisan make:model Post -cmf controller migration factory
