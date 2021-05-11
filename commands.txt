@@ -1,1 +1,4 @@
 php artisan make:model Post -cmf controller migration factory
+PUT completamente / PATCH parcial
+php artisan make:controller Api/V1/PostController --api --model=Post
+ php artisan route:list
