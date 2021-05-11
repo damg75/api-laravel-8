@@ -4,3 +4,5 @@ GET http://localhost:8000/api/v1/posts/1 HTTP/1.1
 GET http://localhost:8000/api/v1/posts HTTP/1.1
 ###
 GET http://localhost:8000/api/v2/posts/1 HTTP/1.1
+### 
+GET http://localhost:8000/api/v2/posts HTTP/1.1
